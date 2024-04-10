@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url(img/gtbank-head-office.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   outline: none;
+   border-image: fill 0 linear-gradient(#0003,#001);
+   /* background:linear-gradient(135deg,#533c3c,#bd7777); */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   padding-top: 200px;
+   gap: 3rem;
+}
+p{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span{
+    color: green;
+}
+.lo{
+   display: flex;
+   padding-right: 45%;
+   flex-direction: column;
+}
+.btn{
+    padding-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+button{
+    padding: 20px;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+button:hover{
+    background-color:white;
+    color: red;
+    /* border: black; */
+}
+.bb{
+    padding: 28px;
+}
+.sms{
+    color: white;
+    padding-top: 20px;
+    padding-left: 350px;
+    font-size: 4rem;
+    width: 40%;
+}
+.sms:hover{
+    /* color: green; */
+}
